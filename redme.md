@@ -1,0 +1,1 @@
+Sitio web básico creado con HTML,JS y CSS, tiene como objetivo enseñar sobre los acentos en español
