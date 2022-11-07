@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Sheaila';
+    src: url(fonts/Sheaila/Shaeila\ Maker.ttf);
+}
+
+@font-face {
+    font-family: 'Mystical';
+    src: url(fonts/Mystical/MysticalWoodsRoughScript.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url(fonts/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf) format("opentype");
+}
+
+:root {
+    --var1: #B9FFF8;
+    --var2: #FF9551;
+    --var3: #6FEDD6;
+    --var4: #FF4A4A;
+    --var5: #7EFF6B;
+    --var6: #DF5FFB;
+    --var7: #6B81FA;
+    --var8: #E3D940;
+    --var9: #8556E3;
+    --var10: #FF917A;
+}
+
+body {
+    background-color: #FF917A;
+}
+
+.magic {
+    font-family: 'Mystical';
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    font-family: 'Sheaila';
+    text-align: center;
+    font-size: 50px;
+    border-radius: 0.5em;
+    background-color: #6FEDD6;
+    width: 300px;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+
+}
+
+.dot{
+    height: 7em;
+    width: 7em;
+    background-color: #FF917A;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #6FEDD6
+}
+
+
+.option:hover > p{
+    background-color: #6B81FA;
+}
+
+.dot p{
+    font-size: 60px;
+    font-family: 'Sheaila';
+    color: #fff;
+}
+
+.dot1{
+    left: 26em;
+    top: 24.5em;
+}
+
+.dot2 {
+    right: 50em;
+    top: 24.5em;
+}
+
+.dot3{
+    left: 26em;
+    top: 33.5em;
+}
+
+.dot4{
+    right: 50em;
+    top: 33.3em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50% 50%;
+    margin-top: 4em;
+    justify-content: center;
+    column-gap: 7em;
+    
+}
+
+.container>div {
+    margin: 1em 1em;
+}
+
+
+.title {
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 1.5em;
+    background-color: #fff;
+    letter-spacing: 5px;
+   
+   margin-top: 8em;
+}
+
+
+.sharp {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Sheaila';
+}
+
+
+
+.btn {
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    border: none;
+    border-radius: 1em;
+    background-color: #FF4A4A;
+    margin: 0 auto;
+    letter-spacing: 10px;
+    color: #fff;
+    padding: 1em 1em;
+}
+
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 2s all;
+    
+}
+
+.right{
+   margin-left: 50em;
+}
+
+.blur{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}

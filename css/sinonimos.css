@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Quick Note';
+    src: url(fonts/Quick\ Note.ttf);
+}
+
+@font-face {
+    font-family: 'Sheaila';
+    src: url(fonts/Sheaila/Shaeila\ Maker.ttf);
+}
+
+@font-face {
+    font-family: 'Mystical';
+    src: url(fonts/Mystical/MysticalWoodsRoughScript.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url(fonts/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf) format("opentype");
+}
+
+:root {
+    --var1: #B9FFF8;
+    --var2: #FF9551;
+    --var3: #6FEDD6;
+    --var4: #FF4A4A;
+    --var5: #7EFF6B;
+    --var6: #DF5FFB;
+    --var7: #6B81FA;
+    --var8: #E3D940;
+    --var9: #8556E3;
+    --var10:#FF917A;
+}
+
+body{
+    background-color:  #8556E3;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 0em 0 2em;
+    font-family: 'Avenir Next LT Pro';
+    color: #fff;
+   
+}
+
+.subtitle{
+    font-family: 'Mystical';
+    font-size: 70px;
+    color: #fff
+}
+
+.title{
+    margin: 0;
+    font-size: 6em;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px #000;
+}
+
+.magic{
+    color: #000;
+    font-family: 'Mystical';
+    font-size: 4em;
+    padding-left: 0.3em;
+}
+.tip{
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.tip div{
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    color: #000;
+    width: 500px;
+    height: 150px;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #E3D940;
+    margin-right: 4em;
+    
+}
+
+.tip img{
+    transform: rotate(270deg) translate(3em);
+    margin-right: 3em;
+    width: 120px;
+    
+    
+}
+
+.container-all-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 8em;
+}
+
+.container-all-info > div{
+    margin: 0em 0em 0em 7em;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 80%;
+   padding-bottom: 4em;
+}
+
+.info-title{
+    margin: 0;
+    position: relative;
+    top: -0.5em;
+    font-family: 'Sheaila';
+    font-size: 50px;
+    color: #fff;
+    padding: 0em 0.2em;
+    height: 70px;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--var8);
+}
+
+.info-subtitle{
+    margin: 0;
+    font-family: 'Avenir Next LT Pro';
+    font-size: 20px;
+}
+
+.container-btn{
+    display: flex;
+}
+
+.btn{
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    border: none;
+    border-radius: 1em;
+    background-color: #FF4A4A;
+    margin: 2em auto;
+    letter-spacing: 10px;
+    color: #fff;
+    padding: 1em 1em;
+}

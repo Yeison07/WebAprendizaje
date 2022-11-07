@@ -1,0 +1,107 @@
+
+@font-face {
+    font-family: 'Sheaila';
+    src: url(fonts/Sheaila/Shaeila\ Maker.ttf);
+}
+
+@font-face {
+    font-family: 'Mystical';
+    src: url(fonts/Mystical/MysticalWoodsRoughScript.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url(fonts/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf) format("opentype");
+}
+
+:root {
+    --var1: #B9FFF8;
+    --var2: #FF9551;
+    --var3: #6FEDD6;
+    --var4: #FF4A4A;
+    --var5: #7EFF6B;
+    --var6: #DF5FFB;
+    --var7: #6B81FA;
+    --var8: #E3D940;
+    --var9: #8556E3;
+    --var10:#FF917A;
+}
+
+body{
+    background-color: #FF917A;
+}
+
+.magic{
+    font-family: 'Mystical';
+}
+.header-container{
+ margin: 4em 0;
+}
+.header-text{
+    font-family: 'Sheaila';
+    text-align: center;
+    font-size: 50px;
+    border-radius: 1em;
+    color: #fff;
+    background-color: #6FEDD6;
+    width: 700px;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-child{
+    margin: 0 auto;
+}
+
+.title{
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 1.5em 0;
+    background-color: #fff;
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.sharp{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Sheaila';
+}
+
+.description{
+    font-size: 25px;
+    font-family: 'Avenir Next LT Pro';
+}
+
+.row > * {
+    margin: 0 2em;
+}
+
+.btn{
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    border: none;
+    border-radius: 1em;
+    background-color: #FF4A4A;
+    margin: 0 auto;
+    letter-spacing: 10px;
+    color: #fff;
+    padding: 1em 1em;
+}
+
+

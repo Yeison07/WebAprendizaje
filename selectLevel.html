@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/selectLevel.css">
+    <title>Selecciona el tipo de juego</title>
+</head>
+<body>
+    <div class="container">
+        <p> Elige la categoría que quieras jugar</p>
+        <div class="container-option">
+            <div onclick="redirect('acento')" class="card card-first">
+                <p>Palabras según su acento</p>
+                <img src="img/Wormies (1).png" alt="">
+            </div>
+            <div onclick="redirect('homofonas')" class="card card-sec">
+                <p>Palabras homófonas</p>
+                <img src="img/Wormies (2).png" alt="">
+            </div>
+        </div>
+        <div class="container-option">
+            <div onclick="redirect('sinonimos')" class="card card-thir">
+                <p>Palabras sinónimas</p>
+                <img src="img/Wormies (3).png" alt="">
+            </div>
+            <div onclick="redirect('antonimas')" class="card card-four">
+                <p>Palabras antónimas</p>
+                <img src="img/Wormies (4).png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <script src="js/animations.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

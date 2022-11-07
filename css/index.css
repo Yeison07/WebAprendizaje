@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Quick Note';
+    src: url(fonts/Quick\ Note.ttf);
+}
+
+@font-face {
+    font-family: 'Sheaila';
+    src: url(fonts/Sheaila/Shaeila\ Maker.ttf);
+}
+
+@font-face {
+    font-family: 'Mystical';
+    src: url(fonts/Mystical/MysticalWoodsRoughScript.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url(fonts/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf) format("opentype");
+}
+
+:root {    
+    background-color: #B9FFF8;
+}
+
+.welcome {
+    background-color: #fff;
+    border: solid rgb(149, 149, 149) 1px;
+    line-height: 2em;
+    font-family: 'Mystical';
+}
+
+.welcome :nth-child(1) {
+    letter-spacing: 6px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Avenir Next LT Pro';
+
+}
+
+.welcome :nth-child(2) {
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 40px;
+    -webkit-text-stroke: 2px #DF5FFB;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    font-family: 'Avenir Next LT Pro';
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+header p {
+    font-weight: 500;
+}
+
+header>* {
+    margin: 1em 1.5em;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.objetivo {
+    display: flex;
+    justify-content: center;
+}
+
+.objetivo p {
+    margin: 0;
+    font-size: 24px;
+    width: 60%;
+    font-family: 'Avenir Next LT Pro';
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.home>* {
+    margin: 0 0.5em;
+}
+
+.home:hover {
+    transition: all 0.5s;
+    color: #000000;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.contenedor {
+    width: 50%;
+    margin: 2em auto;
+    height: 750px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.contenedor>div {
+    margin: 2em 0 1em 0;
+    padding: 1em 0;
+}
+
+.btn-empezar {
+    font-family: 'Avenir Next LT Pro';
+    color: #fff;
+    background-color: #DF5FFB;
+    border: none;
+    border-radius: 2em;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+}
+
+.quienes {
+    background-color: #FF9551;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.quienes h3 {
+    margin: 0;
+    font-size: 70px;
+    font-family: 'Quick Note';
+    font-weight: 100;
+}
+
+footer {
+    font-family: 'Avenir Next LT Pro';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+  
+}
+
+.logo-santoto {
+    width: 600px;
+
+}
+
+.btn-empezar:hover {
+    animation: slide 0.5s infinite ease-in-out alternate;
+}
+
+@keyframes slide {
+    0% {
+        background-color: #DF5FFB;
+    }
+
+    100% {
+        background-color: #dba7e7;
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+
+.circle1 {
+    width: 450px;
+    top: 32em;
+    position: absolute;
+}
+
+.circle2 {
+    width: 600px;
+    left: 75em;
+    position: absolute;
+    z-index: -1;
+}
+
+.circle3 {
+    width: 300px;
+    top: 5em;
+    left: 16.5em;
+    position: absolute;
+    z-index: -1;
+}
+
+.wormie-draw {
+    position: absolute;
+    bottom: -1.5em;
+    right: 15em;
+    transition: all 1s ease-in-out;
+   
+}
+.wormie-draw:hover {
+    transition: all 1s ease-in-out;
+    transform: rotateZ(60deg);
+}
+
+
+
+svg path {
+    fill: #DF5FFB;
+
+}

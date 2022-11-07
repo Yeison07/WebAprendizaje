@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/tilderprimerpregunta.css">
+    <title>Reglas para colocar la tilde diacrítica</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="title">
+            Elige cuál de las siguientes palabras está escrita de manera <span  style="color:#000"class="sharp">incorrecta</span>
+        </div>
+
+    </div>
+    <div id="container" class="container">
+        <div onclick="verificarRespuesta('11')" class="option">
+            <span class="dot dot1"><p>1</p></span>
+            <p class="header-text">Pierna</p>
+        </div>
+        <div onclick="verificarRespuesta('12')" class="option">
+            <span class="dot dot2"><p>2</p></span>
+            <p class="header-text">Talon</p>
+        </div>
+        <div onclick="verificarRespuesta('13')" class="option">
+            <span class="dot dot3"><p>3</p></span>
+            <p class="header-text">Rodilla</p>
+        </div>
+        <div onclick="verificarRespuesta('14')"  class="option">
+            <span class="dot dot4"><p>4</p></span>
+            <p class="header-text">Pie</p>
+        </div>
+    </div>
+
+    <div id="modal" class="modal blur">
+        <p class="header-text">Correcto</p>
+        <img src="img/Wormies (1).png" alt="">
+        <img onclick="redirect('index')" class="right" width="150px" src="img/right.png" alt="">
+    </div>
+<script src="js/index.js"></script>
+</body>
+
+</html>

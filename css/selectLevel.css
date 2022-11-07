@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Quick Note';
+    src: url(fonts/Quick\ Note.ttf);
+}
+
+@font-face {
+    font-family: 'Sheaila';
+    src: url(fonts/Sheaila/Shaeila\ Maker.ttf);
+}
+
+@font-face {
+    font-family: 'Mystical';
+    src: url(fonts/Mystical/MysticalWoodsRoughScript.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url(fonts/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf) format("opentype");
+}
+:root {
+    --var1: #B9FFF8;
+    --var2: #FF9551;
+    --var3: #6FEDD6;
+    --var4: #FF4A4A;
+    --var5: #7EFF6B;
+    --var6: #DF5FFB;
+    --var7: #6B81FA;
+    --var8: #E3D940;
+    --var9: #8556E3;
+    --var10:#FF917A;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Avenir Next LT Pro';
+    font-size: 30px;
+
+}
+
+.container-option {
+    display: flex;
+    align-items: baseline;
+   
+}
+
+.container-option > div{
+    margin: 1em 1.5em;
+}
+
+.card{
+    width: 550px;
+   height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sheaila';
+    color: #fff;
+   
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card p{
+    margin-top: 3em;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.card:hover{
+    transition: all 0.5s;
+    opacity: 70%;
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 150px;
+    height: 300px;
+}
+
+.card-first{
+    background:linear-gradient(#fff 35%,var(--var10)35%)
+}
+.card-sec{
+    background:linear-gradient(#fff 35%,var(--var7)35%)
+}
+.card-thir{
+    background:linear-gradient(#fff 35%,var(--var9)35%);
+}
+.card-four{
+    background:linear-gradient(#fff 35%,var(--var2)35%);
+}
