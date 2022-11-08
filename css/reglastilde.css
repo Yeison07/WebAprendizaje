@@ -102,6 +102,12 @@ body{
     letter-spacing: 10px;
     color: #fff;
     padding: 1em 1em;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    transition: all 0.3s;
+    transform: scale(1.2);
 }
 
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/antoprimerpregunta.css">
+    <title>Reglas para colocar la tilde diacrítica</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="title">
+            Elige cuál de las siguientes palabras es un antónimo de <span class="mystical">refinado</span>
+        </div>
+      
+
+    </div>
+    <div class="container">
+        <div onclick="verificarRespuesta('71')" class="option">
+            <span class="dot dot1"><p>1</p></span>
+            <p class="header-text">Vulgar</p>
+        </div>
+        <div onclick="verificarRespuesta('72')" class="option">
+            <span class="dot dot2"><p>2</p></span>
+            <p class="header-text">Elegante</p>
+        </div>
+    </div>
+
+    <div hidden id="modal" class="blur">
+        <p id="texto" class="header-text">Correcto</p>
+        <img src="img/Wormies (1).png" alt="">
+        <img onclick="sigPreg(4)" class="right" width="150px" src="img/right.png" alt="avanzar">
+    </div>
+<script src="js/index.js"></script>
+</body>
+
+</html>

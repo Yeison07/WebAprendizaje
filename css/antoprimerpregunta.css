@@ -27,7 +27,7 @@
 }
 
 body {
-    background-color: #FF917A;
+    background-color: #FF9551;
 }
 
 .magic {
@@ -44,7 +44,7 @@ body {
     text-align: center;
     font-size: 50px;
     border-radius: 0.5em;
-    background-color: #6FEDD6;
+    background-color: #7EFF6B;
     width: 300px;
     padding: 0.5em 1em;
     margin: 0 auto;
@@ -54,15 +54,19 @@ body {
 .dot{
     height: 7em;
     width: 7em;
-    background-color: #FF917A;
+    background-color: #FF9551;
     border-radius: 50%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px solid #6FEDD6
+    border: 6px solid #7EFF6B
 }
 
+.mystical{
+    font-family: 'Mystical';
+    font-size: 30px;
+}
 
 .option:hover > p{
     background-color: #6B81FA;
@@ -76,12 +80,12 @@ body {
 
 .dot1{
     left: 26em;
-    top: 24.5em;
+    top: 23.5em;
 }
 
 .dot2 {
     right: 50em;
-    top: 24.5em;
+    top: 23.5em;
 }
 
 .dot3{

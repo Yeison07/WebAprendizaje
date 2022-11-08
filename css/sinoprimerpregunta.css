@@ -27,7 +27,7 @@
 }
 
 body {
-    background-color: #FF917A;
+    background-color: #8556E3;
 }
 
 .magic {
@@ -44,7 +44,7 @@ body {
     text-align: center;
     font-size: 50px;
     border-radius: 0.5em;
-    background-color: #6FEDD6;
+    background-color: #E3D940;
     width: 300px;
     padding: 0.5em 1em;
     margin: 0 auto;
@@ -54,13 +54,13 @@ body {
 .dot{
     height: 7em;
     width: 7em;
-    background-color: #FF917A;
+    background-color: #8556E3;
     border-radius: 50%;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 6px solid #6FEDD6
+    border: 6px solid #E3D940
 }
 
 

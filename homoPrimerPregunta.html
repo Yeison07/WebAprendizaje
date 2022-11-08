@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/homoprimerpregunta.css">
+    <title>Reglas para colocar la tilde diacrítica</title>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="title">
+            Elige la palabra <span class="sharp" style="color:#000">correcta</span> que encaje en el espacio de la siguiente frase
+        </div>
+        <p class="subtitle">
+            Tienes que esperar a que el agua ________ para echar los macarrones.
+        </p>
+
+    </div>
+    <div class="container">
+        <div onclick="verificarRespuesta('31')" class="option">
+            <span class="dot dot1"><p>1</p></span>
+            <p class="header-text">Hierva</p>
+        </div>
+        <div onclick="verificarRespuesta('32')" class="option">
+            <span class="dot dot2"><p>2</p></span>
+            <p class="header-text">Hierba</p>
+        </div>
+    </div>
+
+    <div hidden id="modal" class="blur">
+        <p id="texto" class="header-text">Correcto</p>
+        <img src="img/Wormies (1).png" alt="">
+        <img onclick="sigPreg(2)" class="right" width="150px" src="img/right.png" alt="avanzar">
+    </div>
+<script src="js/index.js"></script>
+</body>
+
+</html>

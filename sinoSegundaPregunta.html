@@ -6,40 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/tilderprimerpregunta.css">
-    <title>Reglas para colocar la tilde diacrítica</title>
+    <link rel="stylesheet" href="css/sinoprimerpregunta.css">
+    <title>Segunda pregunta de sinonimos</title>
 </head>
 
 <body>
     <div class="header-container">
         <div class="title">
-            Elige cuál de las siguientes palabras está escrita de manera <span  style="color:#000"class="sharp">incorrecta</span>
+            Elige cuál de las siguientes palabras <span class="mystical">no</span> es sinónimo de <span class="mystical">ingenuo</span>
         </div>
 
     </div>
     <div class="container">
-        <div onclick="verificarRespuesta('11')" class="option">
+        <div onclick="verificarRespuesta('61')" class="option">
             <span class="dot dot1"><p>1</p></span>
-            <p class="header-text">Bebe</p>
+            <p class="header-text">Inocente</p>
         </div>
-        <div onclick="verificarRespuesta('12')" class="option">
+        <div onclick="verificarRespuesta('62')" class="option">
             <span class="dot dot2"><p>2</p></span>
-            <p class="header-text">Adulto</p>
+            <p class="header-text">Infeliz</p>
         </div>
-        <div onclick="verificarRespuesta('13')" class="option">
+        <div onclick="verificarRespuesta('63')" class="option">
             <span class="dot dot3"><p>3</p></span>
-            <p class="header-text">Anciano</p>
+            <p class="header-text">Candido</p>
         </div>
-        <div  onclick="verificarRespuesta('14')"  class="option">
+        <div  onclick="verificarRespuesta('64')"  class="option">
             <span class="dot dot4"><p>4</p></span>
-            <p class="header-text">Adolescente</p>
+            <p class="header-text">Crédulo</p>
         </div>
     </div>
 
     <div hidden id="modal" class="blur">
         <p id="texto" class="header-text">Correcto</p>
         <img src="img/Wormies (1).png" alt="">
-        <img onclick="sigPreg(1)" class="right" width="150px" src="img/right.png" alt="avanzar">
+        <img onclick="redirect('index')" class="right" width="150px" src="img/right.png" alt="avanzar">
     </div>
 <script src="js/index.js"></script>
 </body>

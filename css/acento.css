@@ -149,3 +149,25 @@ body{
     font-size: 20px;
 }
 
+
+.instrucciones{
+    text-align: center;
+    margin: 4em 0;
+}
+
+.btn{
+    border: none;
+    background-color: #FF4A4A;
+    color: #fff;
+    height: 70px;
+    letter-spacing: 3px;
+    font-family: 'Avenir Next LT Pro';
+    border-radius: 2em;
+    width: 250px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    transition: all 0.3s;
+    transform: scale(1.2);
+}
